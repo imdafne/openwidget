@@ -44,7 +44,7 @@ export default function HereinLandingPage() {
             <div className="relative">
               <div className="w-72 h-[580px] bg-black rounded-[3rem] p-2 shadow-2xl">
                 <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden relative">
-                  <Image src="/images/phone-screen.png" alt="此间应用界面" fill className="object-cover" />
+                  <Image src="/openwidget/images/phone-screen.png" alt="此间应用界面" fill className="object-cover" priority />
                 </div>
               </div>
             </div>
@@ -85,7 +85,9 @@ export default function HereinLandingPage() {
               </a>
             </div>
             <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4">
-              <span>ICP备案号: [placeholder]</span>
+              <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
+                沪ICP备2025136576号-7A
+              </a>
               <span className="hidden md:inline">|</span>
               <span>support@herein.app</span>
             </div>
