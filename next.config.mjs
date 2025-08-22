@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  // 使用自定义域名 openwidget.net，不需要 basePath
+  // 临时添加 basePath，配置好域名后可以删除
+  basePath: '/openwidget',
+  assetPrefix: '/openwidget/',
   eslint: {
     ignoreDuringBuilds: true,
   },
